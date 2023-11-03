@@ -13,7 +13,7 @@
 hr {
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   
 }
 
@@ -33,7 +33,7 @@ hr {
   text-align: center;
   /* padding: 50px; */
   /* height:830px ; */
-  border: rgb(219, 74, 17) solid;
+  /* border: rgb(219, 74, 17) solid; */
 
 
 }
@@ -46,14 +46,14 @@ hr {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  border: rgb(100, 100, 211) solid;
+  /* border: rgb(100, 100, 211) solid; */
 
 }
 
 
 .qu-footer{
   height:120px ;
-    border: rgb(219, 17, 17) solid;
+    /* border: rgb(219, 17, 17) solid; */
 }
 
 
@@ -74,7 +74,7 @@ hr {
 .content-offer{
     /* height:500px ; */
 
-    border: rgb(64, 219, 17) solid;
+    /* border: rgb(64, 219, 17) solid; */
 
 }
 
@@ -92,7 +92,7 @@ hr {
 /* endofall */
 .endofall{
     margin-top: 40px;
-    border: rgb(0, 0, 0) solid;
+    /* border: rgb(0, 0, 0) solid; */
 
     text-align: center;
 }
