@@ -1,0 +1,135 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+ 
+
+ 
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  
+}
+
+
+
+
+/* qu-body */
+.output_container {
+ 
+  border:1px solid;
+  font-family: Arial, Helvetica, sans-serif;
+/* 
+
+  width:  793.3333333333333px;
+  height: 1122.6666666666665px; */
+  
+  text-align: center;
+  /* padding: 50px; */
+  /* height:830px ; */
+  border: rgb(219, 74, 17) solid;
+
+
+}
+
+.header-bar {
+    height:120px ;
+  /* margin-top: 50px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border: rgb(100, 100, 211) solid;
+
+}
+
+
+.qu-footer{
+  height:120px ;
+    border: rgb(219, 17, 17) solid;
+}
+
+
+
+
+
+.comp-name {
+  text-align: center;
+  font-size: 25px;
+  width: 110px;
+}
+
+.comp-logo {
+  height: 120px;
+}
+
+
+.content-offer{
+    /* height:500px ; */
+
+    border: rgb(64, 219, 17) solid;
+
+}
+
+
+.qu-title {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.qu-custmer {
+  text-align: right;
+}
+
+/* endofall */
+.endofall{
+    margin-top: 40px;
+    border: rgb(0, 0, 0) solid;
+
+    text-align: center;
+}
+
+
+ 
+
+.address{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+ 
+
+
+
+
+ 
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  color: #000000;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.GeneratedTable thead {
+  background-color: #abaaa6;
+}

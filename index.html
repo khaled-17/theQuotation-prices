@@ -1,0 +1,204 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Creator</title>
+    <!-- style link here -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="block.css" />
+</head>
+
+<body>
+    <!-- input container starts here -->
+    <section class="resume-builder">
+        <div class="container">
+            <h1>Resume Creator</h1>
+            <div class="resume_container">
+                <form class="inputField">
+                    <div class="container-input">
+
+                        <label for="name">name</label>
+                        <input type="text" name="name" />
+                    </div>
+                    <div class="container-input">
+
+                        <label for="about">about</label>
+                        <input type="text" name="about" />
+                    </div>
+
+                    <button class="addcastumer" type="button" value="add" ">add castumer </button>
+
+
+                </form>
+                <hr>
+                <hr>
+                <form class=" inputField" id="productForm">
+                        <div class="container-input">
+                            <label for="sn">S/N:</label>
+                            <input type="text" id="sn" value="" name="sn"> 
+                        </div>
+
+                        <div class="container-input">
+                            <label for="code">CODE:</label>
+                            <input type="text" id="code" name="code"><br><br>
+                        </div>
+
+                        <div class="container-input">
+                            <label for="w">W(MM):</label>
+                            <input type="text" id="w" name="w"><br><br>
+                        </div>
+
+                        <div class="container-input">
+                            <label for="h">H(MM):</label>
+                            <input type="text" id="h" name="h"><br><br>
+                        </div>
+
+                        <div class="container-input">
+                            <label for="q">Q:</label>
+                            <input type="text" id="q" name="q"><br><br>
+                        </div>
+
+                        <div class="container-input">
+                            <label for="area">AREA:</label>
+                            <input type="text" id="area" name="area"><br><br>
+                        </div>
+
+                        <div class="container-input">
+                            <label for="totae">TOT/AE:</label>
+                            <input type="text" id="totae" name="totae"><br><br>
+                        </div>
+
+                        <div class="container-input">
+                            <label for="pm">P/M:</label>
+                            <input type="text" id="pm" name="pm"><br><br>
+                        </div>
+
+                        <div class="container-input">
+                            <label for="tot">TOT:</label>
+                            <input type="text" id="tot" name="tot"><br><br>
+                        </div>
+
+                        <button class="addToTable" type="submit" value="add" ">add </button>
+                </form>
+                <hr>
+                 
+                <hr>
+            </div>
+            <p class="credit">
+                Created by
+                <a href="https://auth.geeksforgeeks.org/user/lunatic1/articles" target="_blank">
+                    lunatic1
+                </a>
+            </p>
+            <p class="tip">
+                **You can use markup in the text area for text decoration**
+            </p>
+        </div>
+    </section>
+    <!-- input container ends here -->
+
+    <!-- output container starts here -->
+    <div class="output_container">
+ 
+                 <div class="header-bar">
+                    <h1 class="comp-name">مصنع شركه السعيد للزجاج </h1>
+                    <p class="timeoftoday"></p>
+                    <img class="comp-logo" src="./logo.png">
+                </div>
+
+
+                <div class="qu-body">
+
+                    <div class="content-offer">
+                        <div>
+                            <h1 class="qu-title"> عرض أسعار </h1>
+                        </div>
+                        <section class="qu-custmer">
+                            <h4> السادة/ <span id="nameSpan"></span> </h4>
+                            <h4> الموضوع/<span id="subjectSpan"></span> </h4>
+                        </section>
+                        <hr>
+                        <section>
+                            <h5>السلام عليكم ورحمة الله وبركاته</h5>
+                            <p>نتشرف نحن مصنع شركةالسعيد للزجاج والكالدينج بالتعامل معكم ونأمل أن يحوزعرضاسعارنا
+                                علىرضاكم واستحسانكم
+                                والعرضك التالي:
+                            </p>
+                        </section>
+                        <section>
+                            <table  class="GeneratedTable">
+        
+                                <tr>
+                                   <th>S/N</th>
+                                   <th>CODE</th>
+                                   <th>W(MM)</th>
+                                   <th>H(MM)</th>
+                                   <th>Q</th>
+                                   <th>AREA</th>
+                                   <th>TOT/AE</th>
+                                   <th> P/M</th>
+                                   <th>TOT</th>
+                                </tr>
+                           
+                           
+                               
+                           </table>
+
+
+
+
+                            <p>نتمنى أن ينال عرضنا إعجابكم ورضاكم، شاكرين لكم اختياركم ملصنعن</p>
+
+
+                        </section>
+
+                    </div>
+                    <div class="endofall">
+
+                        <section>
+                            <p>نتمنى ان ينال عرضنا إعجابكم ورضاكم، شاكرين لكم اختياركم ملصنعنا</p>
+                            <p> وهللا ولي التوفيق؛</p>
+                            <p>مصنع شركة السعيد للزجاج </p>
+
+                        </section>
+
+                    </div>
+
+                </div>
+
+
+
+                <footer class="qu-footer">
+                    <h6> P.O.Box 7556 Riyadh 12883 Saudi Arabia</h6>
+                    <h6> Tel : 011 2423255 | Tel : 0112415611 | Fax : 011 2705370 – 0112423103 | C.R. 1010133633 | C.C.
+                        74618 |
+                        info@al-saeedglass.com </h6>
+                    <div class="address">
+
+                        <h6> Al Riyadh – Southern District – Al Faisallyah – Maheel Street </h6>
+                        <h6>محايــل شارع – الفيصليـة – الجنوبـــي الدائري – الريــاض </h6>
+                    </div>
+
+                </footer>
+
+                
+            </div>
+            <!-- output container ends here -->
+            
+            <!-- preview button -->
+     <button class="PrintBtn" onclick="print()">Print</button>
+    <button class="GenerateEditBTN" onclick="hide()">
+        Generate
+    </button>
+
+
+    <!-- script link here -->
+    <script src="script.js"></script>
+    <script src="block.js"></script>
+</body>
+
+</html>
